@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+form, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    margin-top: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.note-actions {
+    margin-top: 5px;
+}
+
+.note-actions button {
+    margin-right: 5px;
+}
